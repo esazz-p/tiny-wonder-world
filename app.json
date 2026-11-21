@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Tiny Wonder World",
+    "slug": "tiny-wonder-world",
+    "version": "1.0.0",
+    "orientation": "default",
+    "scheme": "tinywonder",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#38bdf8"
+      },
+      "package": "com.sibi.tinywonderworld"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
